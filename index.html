@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" async defer></script>
+    <title>NFT Trait Sniper</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>NFT Trait Sniper</h1>
+    </header>
+
+    <div id="info-panel-container">
+      <input
+        type="text"
+        id="search-container"
+        value="https://go.fission.app/json/InjectINDEX/index.json"
+      />
+      <input
+        type="text"
+        id="search-index-word-container"
+        value="InjectINDEX"
+        placeholder="placeholder"
+      />
+      <input
+        type="text"
+        id="max-index"
+        value="1000"
+        placeholder="placeholder"
+      />
+      <button onclick="didClickGo()">GO</button>
+    </div>
+
+    <h2>Traits</h2>
+    <div id="trait-categories"></div>
+  </body>
+</html>
