@@ -6,36 +6,335 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
     <script src="script.js" async defer></script>
-    <title>NFT Trait Sniper</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <title>NFT Trait Analyser</title>
   </head>
 
   <body>
-    <header>
-      <h1>NFT Trait Sniper</h1>
-    </header>
-
-    <div id="info-panel-container">
-      <input
-        type="text"
-        id="search-container"
-        value="https://go.fission.app/json/InjectINDEX/index.json"
-      />
-      <input
-        type="text"
-        id="search-index-word-container"
-        value="InjectINDEX"
-        placeholder="placeholder"
-      />
-      <input
-        type="text"
-        id="max-index"
-        value="1000"
-        placeholder="placeholder"
-      />
-      <button onclick="didClickGo()">GO</button>
+    <div id="trait-categories">
+      <span id="trait-category-placeholder"><b>TRAITS</b></span>
     </div>
-
-    <h2>Traits</h2>
-    <div id="trait-categories"></div>
+    <div id="dashboard">
+      <div id="average-response-time"></div>
+      <header>
+        <h1>NFT TRAIT ANALYSER</h1>
+      </header>
+      <div id="info-panel-container">
+        <div id="search-collapsable-container">
+          <div class="search-element-separator">
+            <div class="search-element">
+              <label for="search-preset-container">PRESETS</label>
+              <select
+                id="search-preset-container"
+                onchange="updateInputs(this.value)"
+              >
+                <option class="unrevealed" value="BOOMGALA_Official">
+                  BOOMGALA_Official
+                </option>
+                <option class="unrevealed" value="Timepiece Ape Society">
+                  Timepiece Ape Society
+                </option>
+                <option value="Custom">------</option>
+                <option class="revealed" value="MPL Official">
+                  MPL Official
+                </option>
+                <option class="revealed" value="Villagers of XOLO">
+                  Villagers of XOLO
+                </option>
+                <option class="revealed" value="Cuddly Cubs">
+                  Cuddly Cubs
+                </option>
+                <option class="revealed" value="Pudgy Penguins">
+                  Pudgy Penguins
+                </option>
+                <option class="revealed" value="Playboy Rabbitars Official">
+                  Playboy Rabbitars Official
+                </option>
+                <option class="revealed" value="CreatureToadz">
+                  CreatureToadz
+                </option>
+                <option class="revealed" value="Womenandweapons">
+                  Womenandweapons
+                </option>
+                <option class="revealed" value="OctoHedz">OctoHedz</option>
+                <option class="revealed" value="Spectral Skellies">
+                  Spectral Skellies
+                </option>
+                <option class="revealed" value="GORILLA CLUB NFT">
+                  GORILLA CLUB NFT
+                </option>
+                <option class="revealed" value="SlimHoods">SlimHoods</option>
+                <option class="revealed" value="The Dreamers">
+                  The Dreamers
+                </option>
+                <option class="revealed" value="Metaverse">Metaverse</option>
+                <option class="revealed" value="MekaVerse">MekaVerse</option>
+                <option class="revealed" value="The Evolving Forest">
+                  The Evolving Forest
+                </option>
+                <option class="revealed" value="Sora's Dreamworld">
+                  Sora's Dreamworld
+                </option>
+                <option class="revealed" value="ETHEREALS WTF">
+                  ETHEREALS WTF
+                </option>
+                <option class="revealed" value="Dark Horizon">
+                  Dark Horizon
+                </option>
+                <option class="revealed" value="The Official Surreals">
+                  The Official Surreals
+                </option>
+                <option class="revealed" value="Wanna Panda">
+                  Wanna Panda
+                </option>
+                <option class="revealed" value="The Humanoids">
+                  The Humanoids
+                </option>
+                <option class="revealed" value="WE ARE THE OUTCAST">
+                  WE ARE THE OUTCAST
+                </option>
+                <option class="revealed" value="The Yakuza Cats Society">
+                  The Yakuza Cats Society
+                </option>
+                <option class="revealed" value="GOLDEN EAGLEZ KARTEL">
+                  GOLDEN EAGLEZ KARTEL
+                </option>
+                <option class="revealed" value="Evolved Apes Inc">
+                  Evolved Apes Inc
+                </option>
+                <option class="revealed" value="Angry Boars">
+                  Angry Boars
+                </option>
+                <option class="revealed" value="BROADCASTERS">
+                  BROADCASTERS
+                </option>
+                <option class="revealed" value="Cupcats">Cupcats</option>
+                <option class="revealed" value="Drunken Pandas">
+                  Drunken Pandas
+                </option>
+                <option class="revealed" value="The Moon Boyz">
+                  The Moon Boyz
+                </option>
+                <option class="revealed" value="BlankFace">BlankFace</option>
+                <option class="revealed" value="Raccoon Secret Society">
+                  Raccoon Secret Society
+                </option>
+                <option class="revealed" value="Galaxy Eggs">
+                  Galaxy Eggs
+                </option>
+                <option class="revealed" value="WALTZ">WALTZ</option>
+                <option class="revealed" value="0xvampire">0xvampire</option>
+                <option class="revealed" value="I'm spottie">
+                  I'm spottie
+                </option>
+                <option class="revealed" value="Clever Girl">
+                  Clever Girl
+                </option>
+                <option class="revealed" value="Unusual Whales">
+                  Unusual Whales
+                </option>
+                <option class="revealed" value="Uninterested Unicorns">
+                  Uninterested Unicorns
+                </option>
+                <option class="revealed" value="Guardians of the metaverse">
+                  Guardians of the metaverse
+                </option>
+                <option class="revealed" value="Cool Cats NFT">
+                  Cool Cats NFT
+                </option>
+                <option class="revealed" value="Lucky Buddha Lucky Club">
+                  Lucky Buddha Lucky Club
+                </option>
+                <option class="revealed" value="Stoner Cats">
+                  Stoner Cats
+                </option>
+                <option class="revealed" value="Goons of Balatroon">
+                  Goons of Balatroon
+                </option>
+                <option class="revealed" value="Bored Ape Yacht Club">
+                  Bored Ape Yacht Club
+                </option>
+              </select>
+            </div>
+            <div class="search-element">
+              <label for="contact-address">CONTRACT</label>
+              <input
+                type="text"
+                id="contract-address"
+                value="0x1A92f7381B9F03921564a437210bB9396471050C"
+                placeholder="E.g. 0x1A92f7381B9F03921564a437210bB9396471050C"
+              />
+            </div>
+            <div class="search-element">
+              <label for="search-container">API</label>
+              <input
+                type="text"
+                id="search-container"
+                value=""
+                placeholder="E.g. https://api.coolcatsnft.com/cat/REPLACE"
+              />
+            </div>
+            <div class="search-element">
+              <label for="search-replace-index-container"
+                >STRING TO REPLACE</label
+              >
+              <input
+                type="text"
+                id="search-replace-index-container"
+                value="REPLACE"
+                placeholder="The value that will be replaced in the API URL"
+              />
+            </div>
+          </div>
+          <div class="search-element-separator">
+            <div class="search-element">
+              <label for="token-offset">TOKEN OFFSET</label>
+              <input
+                type="number"
+                id="token-offset"
+                value="0"
+                placeholder="E.g. 1"
+              />
+            </div>
+            <div class="search-element">
+              <label for="min-index">MIN TOKEN ID</label>
+              <input
+                type="number"
+                id="min-index"
+                value="0"
+                placeholder="E.g. 0 (sometimes 1)"
+              />
+            </div>
+            <div class="search-element">
+              <label for="max-index">MAX TOKEN ID</label>
+              <input
+                type="number"
+                id="max-index"
+                value=""
+                placeholder="E.g. 9999"
+              />
+            </div>
+            <div class="search-element">
+              <label for="trait-normalisation">REMOVE DUPLICATE</label>
+              <input
+                type="checkbox"
+                id="duplicate-trait-categories"
+                name="duplicate-trait-categories"
+                onchange="updateDuplicateTraitCategories(this)"
+                checked
+              />
+            </div>
+          </div>
+          <div class="search-element-separator">
+            <div class="search-element">
+              <label for="call-async">FETCH ASYNC</label>
+              <input
+                type="checkbox"
+                id="call-async"
+                name="call-async"
+                onchange="updateCallAsync(this)"
+                checked
+              />
+            </div>
+            <div class="search-element">
+              <label for="api-delay">ASYNC DELAY (ms)</label>
+              <input
+                type="number"
+                id="api-delay"
+                value=""
+                placeholder="E.g. 20"
+              />
+            </div>
+            <div class="search-element">
+              <label for="api-delay">Reveal date:</label>
+              <input
+                type="text"
+                id="reveal-date"
+                value=""
+                placeholder="E.g. 20"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="fetch-panel">
+        <div id="progress">Waiting for scan to start...</div>
+        <div
+          style="
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+          "
+        >
+          <label for="trait-normalisation"
+            >TRAIT NORMALISATION&nbsp;&nbsp;</label
+          >
+          <input
+            type="checkbox"
+            id="trait-normalisation"
+            name="trait-normalisation"
+            onchange="updateTraitNormalisation(this)"
+            checked
+          />
+        </div>
+        <div id="button-container">
+          <button id="fetch-traits-button" onclick="initFetch()">
+            START SCAN
+          </button>
+          <button
+            id="calculate-trait-score-button"
+            onclick="calcTraitScores()"
+            disabled
+          >
+            GET SCORES
+          </button>
+          <button id="reload-button" onclick="reload()">RESET</button>
+        </div>
+      </div>
+      <div id="opensea-search-result-wrapper">
+        <div class="checkbox-container">
+          <label for="opensea-only">MINTED ONLY</label>
+          <input
+            type="checkbox"
+            id="opensea-only"
+            name="opensea-only"
+            onchange="updateSearchResultsHTML()"
+          />
+        </div>
+        <div class="checkbox-container">
+          <label for="buy-it-now-only">'Buy it now' ONLY</label>
+          <input
+            type="checkbox"
+            id="buy-it-now-only"
+            name="buy-it-now-only"
+            onchange="updateSearchResultsHTML()"
+            checked
+          />
+        </div>
+        <div>
+          <label for="opensea-find-result-id">Scroll to ID:</label>
+          <input
+            type="number"
+            id="opensea-find-result-id"
+            value=""
+            oninput="find()"
+          />
+        </div>
+        <div>
+          <label for="search-results">Top</label>
+          <input
+            type="number"
+            id="search-results"
+            value="100"
+            placeholder="E.g. 100"
+          />
+          <label for="search-results"> results</label>
+        </div>
+      </div>
+      <div id="token-scores"></div>
+      <button onclick="topFunction()" id="scroll-button" title="Go to top">
+        Top
+      </button>
+    </div>
   </body>
 </html>

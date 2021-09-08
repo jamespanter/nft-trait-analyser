@@ -1,0 +1,188 @@
+{
+  "id": 32452881,
+  "num_sales": 2,
+  "background_color": null,
+  "image_url": "https://lh3.googleusercontent.com/1DvUc1U6TdDjM803q8ZpPRbc8F8FnZKkCm8nS4pwz9J2HFTwwi8fPaI-MsvycAD7Z4kcwdFqspjAyAoyR0eDjncieKcG_TSbp6NRzw",
+  "image_preview_url": "https://lh3.googleusercontent.com/1DvUc1U6TdDjM803q8ZpPRbc8F8FnZKkCm8nS4pwz9J2HFTwwi8fPaI-MsvycAD7Z4kcwdFqspjAyAoyR0eDjncieKcG_TSbp6NRzw=s250",
+  "image_thumbnail_url": "https://lh3.googleusercontent.com/1DvUc1U6TdDjM803q8ZpPRbc8F8FnZKkCm8nS4pwz9J2HFTwwi8fPaI-MsvycAD7Z4kcwdFqspjAyAoyR0eDjncieKcG_TSbp6NRzw=s128",
+  "image_original_url": "https://api.pudgypenguins.io/penguin/image/3341",
+  "animation_url": null,
+  "animation_original_url": null,
+  "name": "Pudgy Penguin #3341",
+  "description": "A collection 8,888 Cute Chubby Pudgy Penquins sliding around on the freezing ETH blockchain.",
+  "external_link": null,
+  "asset_contract": {
+    "address": "0xbd3531da5cf5857e7cfaa92426877b022e612cf8",
+    "asset_contract_type": "non-fungible",
+    "created_date": "2021-07-22T12:26:11.045175",
+    "name": "PudgyPenguins",
+    "nft_version": "3.0",
+    "opensea_version": null,
+    "owner": 57673456,
+    "schema_name": "ERC721",
+    "symbol": "PPG",
+    "total_supply": "0",
+    "description": "Located in the freezing cold, arctic region of the metaverse you can find 8,888 cute chubby Pudgy Penguins sliding around on the ETH blockchain.\r\n\r\nCome join the huddle today at [pudgypenguins.io](https://pudgypenguins.io)",
+    "external_link": "https://www.pudgypenguins.io/",
+    "image_url": "https://lh3.googleusercontent.com/bcCd1TfusKK6wWjmshwmizmY9j7An3pp9kxopMxfIt-_I8WFnSIK-5gevOduoYK4Qpq2e3DyXgROKNfkP396W5ViEYXhxoyAZG3s_vY=s120",
+    "default_to_fiat": false,
+    "dev_buyer_fee_basis_points": 0,
+    "dev_seller_fee_basis_points": 300,
+    "only_proxied_transfers": false,
+    "opensea_buyer_fee_basis_points": 0,
+    "opensea_seller_fee_basis_points": 250,
+    "buyer_fee_basis_points": 0,
+    "seller_fee_basis_points": 550,
+    "payout_address": "0xe9da256a28630efdc637bfd4c65f0887be1aeda8"
+  },
+  "permalink": "https://opensea.io/assets/0xbd3531da5cf5857e7cfaa92426877b022e612cf8/3341",
+  "collection": {
+    "banner_image_url": "https://lh3.googleusercontent.com/L9PJp0pOXCscKsTpD1_6zoALxdjG5gIKHLykS_Wk5J_yk590drEqRhM1ElTEZCaWeTjFj2isfxFw2tcFKcbCPlu6-Eu5bUuxsL-x=s2500",
+    "chat_url": null,
+    "created_date": "2021-07-22T12:48:58.239929",
+    "default_to_fiat": false,
+    "description": "Located in the freezing cold, arctic region of the metaverse you can find 8,888 cute chubby Pudgy Penguins sliding around on the ETH blockchain.\r\n\r\nCome join the huddle today at [pudgypenguins.io](https://pudgypenguins.io)",
+    "dev_buyer_fee_basis_points": "0",
+    "dev_seller_fee_basis_points": "300",
+    "discord_url": "https://discord.gg/pudgypenguins",
+    "display_data": {
+      "card_display_style": "cover"
+    },
+    "external_url": "https://www.pudgypenguins.io/",
+    "featured": false,
+    "featured_image_url": "https://lh3.googleusercontent.com/6S2zwpE7sIaUPrVgmdaM9fmkenKhb1VLD8WeKLB76hNxMHV7gAJleY4lwfQl78Gen7P2pL6QSaFRtj4ulJJEk4zLhnp3vPgdcpPQ=s300",
+    "hidden": false,
+    "safelist_request_status": "verified",
+    "image_url": "https://lh3.googleusercontent.com/bcCd1TfusKK6wWjmshwmizmY9j7An3pp9kxopMxfIt-_I8WFnSIK-5gevOduoYK4Qpq2e3DyXgROKNfkP396W5ViEYXhxoyAZG3s_vY=s120",
+    "is_subject_to_whitelist": false,
+    "large_image_url": "https://lh3.googleusercontent.com/6S2zwpE7sIaUPrVgmdaM9fmkenKhb1VLD8WeKLB76hNxMHV7gAJleY4lwfQl78Gen7P2pL6QSaFRtj4ulJJEk4zLhnp3vPgdcpPQ=s300",
+    "medium_username": null,
+    "name": "Pudgy Penguins",
+    "only_proxied_transfers": false,
+    "opensea_buyer_fee_basis_points": "0",
+    "opensea_seller_fee_basis_points": "250",
+    "payout_address": "0xe9da256a28630efdc637bfd4c65f0887be1aeda8",
+    "require_email": false,
+    "short_description": null,
+    "slug": "pudgypenguins",
+    "telegram_url": null,
+    "twitter_username": "pudgy_penguins",
+    "instagram_username": null,
+    "wiki_url": null,
+    "is_nsfw": false
+  },
+  "decimals": 0,
+  "token_metadata": "https://api.pudgypenguins.io/penguin/3341",
+  "is_nsfw": false,
+  "owner": {
+    "user": {
+      "username": null
+    },
+    "profile_img_url": "https://storage.googleapis.com/opensea-static/opensea-profile/17.png",
+    "address": "0x868f356fdae98a6d1c911f5bb2885d2666024f12",
+    "config": ""
+  },
+  "sell_orders": null,
+  "creator": {
+    "user": {
+      "username": "PudgyPenguinsKing"
+    },
+    "profile_img_url": "https://storage.googleapis.com/opensea-static/opensea-profile/2.png",
+    "address": "0xe9da256a28630efdc637bfd4c65f0887be1aeda8",
+    "config": ""
+  },
+  "traits": [
+    {
+      "trait_type": "Head",
+      "value": "Mohawk Purple",
+      "display_type": null,
+      "max_value": null,
+      "trait_count": 269,
+      "order": null
+    },
+    {
+      "trait_type": "Background",
+      "value": "Mint",
+      "display_type": null,
+      "max_value": null,
+      "trait_count": 1389,
+      "order": null
+    },
+    {
+      "trait_type": "Body",
+      "value": "Apron",
+      "display_type": null,
+      "max_value": null,
+      "trait_count": 199,
+      "order": null
+    },
+    {
+      "trait_type": "Face",
+      "value": "Mustache",
+      "display_type": null,
+      "max_value": null,
+      "trait_count": 169,
+      "order": null
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Light Gray",
+      "display_type": null,
+      "max_value": null,
+      "trait_count": 1189,
+      "order": null
+    }
+  ],
+  "last_sale": {
+    "asset": {
+      "decimals": 0,
+      "token_id": "3341"
+    },
+    "asset_bundle": null,
+    "event_type": "successful",
+    "event_timestamp": "2022-02-05T18:05:39",
+    "auction_type": null,
+    "total_price": "1240000000000000000",
+    "payment_token": {
+      "symbol": "ETH",
+      "address": "0x0000000000000000000000000000000000000000",
+      "image_url": "https://storage.opensea.io/files/6f8e2979d428180222796ff4a33ab929.svg",
+      "name": "Ether",
+      "decimals": 18,
+      "eth_price": "1.000000000000000",
+      "usd_price": "2579.550000000000182000"
+    },
+    "transaction": {
+      "block_hash": "0xd44ef83a0a549697c038ad8b1986bfe80d88148440548c379b3704c187daec91",
+      "block_number": "14147506",
+      "from_account": {
+        "user": {
+          "username": null
+        },
+        "profile_img_url": "https://storage.googleapis.com/opensea-static/opensea-profile/17.png",
+        "address": "0x868f356fdae98a6d1c911f5bb2885d2666024f12",
+        "config": ""
+      },
+      "id": 267782153,
+      "timestamp": "2022-02-05T18:05:39",
+      "to_account": {
+        "user": {
+          "username": "OpenSea-Orders"
+        },
+        "profile_img_url": "https://storage.googleapis.com/opensea-static/opensea-profile/22.png",
+        "address": "0x7be8076f4ea4a4ad08075c2508e481d6c946d12b",
+        "config": "verified"
+      },
+      "transaction_hash": "0xee610e94ba7dc3242f8dc6d620be57f793739c9de6a464fc580d3d1d8016a921",
+      "transaction_index": "240"
+    },
+    "created_date": "2022-02-05T18:06:23.369327",
+    "quantity": "1"
+  },
+  "top_bid": null,
+  "listing_date": null,
+  "is_presale": false,
+  "transfer_fee_payment_token": null,
+  "transfer_fee": null,
+  "token_id": "3341"
+}
