@@ -1,8 +1,8 @@
 # nft-trait-analyser
 
-A very rough around the egdes, unfinished, NFT trait analyser. Use with caution.
+Warning: This project is not maintained. Use with caution. This tool is experimental and may break due to updates in OpenSea's API or other external changes.
 
-https://jamespanter.github.io/nft-trait-analyser/
+Scrapes meta data files for NFT collection drops and attempts to identify 'rare' tokens that may be undervalued.
 
 ### Demo
 
